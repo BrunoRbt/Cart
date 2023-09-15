@@ -134,6 +134,7 @@ int main()
     		 printf("\t1 - Resgistrar nome de usuário\n");
     		 printf("\t2 - Consultar nome de usuário\n");
     		 printf("\t3 - Deletar usuário do sistema\n\n");
+    		 printf("\t4 - sair do sistema\n\n");
     		 printf("opção: "); // fim do menu
     		 
     		 
@@ -159,6 +160,12 @@ int main()
     		    	
                 deletar();
 				break;	
+				
+				case 4:
+				printf("Obrigado por sair do sistema!\n");
+				return 0;
+				break;	
+				
 					
 				default:	
 				printf("essa opção não está disponivel!\n");
